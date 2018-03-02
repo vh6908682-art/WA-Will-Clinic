@@ -1,4 +1,5 @@
-﻿@{
+﻿@model WillClinic.Models.VeteranQueue
+@{
     ViewData["Title"] = "Default";
 }
 
@@ -9,7 +10,7 @@
     <tbody>
         <tr>
             <td>Pending Lawyer Match</td>
-            <td>Time Entered Queue: </td>
+            <td>Time Entered Queue: @Model.TimeEnteredQueue</td>
         </tr>
     </tbody>
 </table>
